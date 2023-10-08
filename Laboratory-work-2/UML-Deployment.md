@@ -1,0 +1,1 @@
+- [UML-Deployment.puml](https://raw.githubusercontent.com/GromZz/ai-192-tarasenko/laboratory-work-2/Laboratory-work-2/UML-Deployment.puml)
