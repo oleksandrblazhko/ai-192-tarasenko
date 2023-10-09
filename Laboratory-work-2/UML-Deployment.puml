@@ -1,0 +1,27 @@
+@startuml
+title UML-діаграма розгортання ПП
+
+left to right direction
+
+skinparam componentStyle uml1
+
+node "<<Verbum App>>" as va {
+            component [*Kotlin] as kt
+}
+
+node "<<Host>>" as hs1 {
+component [*Firebase Database] as fd
+}
+
+node "<<Host>>" as hs2 {
+component [*Firebase Auth] as fa
+}
+
+node "<<Host>>" as hs3 {
+component [*Firebase Storage] as fs
+}
+
+kt -- fd
+kt -- fa
+kt -- fs
+@enduml
