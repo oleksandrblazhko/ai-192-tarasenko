@@ -32,6 +32,17 @@ PostgreSQL вже було встановлено.
 
 ### Створіть реляційну таблицю з урахуванням варіанту з таблиці 2.1 від імені користувача-адміністратора.
 
-Було створено таблицю airplane командою Create table airplane (a_id integer, model varchar, year integer); . За допомогою \dt було перевірено наявніть таблиці
+Було створено таблицю university командою Create table university (u_id integer, name varchar, year integer); . За допомогою \dt було перевірено наявність таблиці
 
-![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/46c27910-e396-4cc5-b16d-0efe14340051)
+![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/ed151068-1be3-4d60-bbae-cc4b5779a57f)
+
+
+## Крок 6
+
+### Внесіть один рядок в таблицю, використовуючи команду insert into ..., відповідно до варіанту.
+
+Було внесено один рядок до створеної таблиці за допомогою команди Insert into university values (1, 'ONPU', 1918); Та за допомогою команди SELECT * FROM university перевірено правильність введення
+
+![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/cd8cbc80-f058-4314-b43c-2bb6583b9467)
+
+
