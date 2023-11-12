@@ -53,3 +53,20 @@ DELETE
 
 ![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/9354ac46-6eb9-42cf-8fd7-f3223dbd6a12)
 
+
+## Крок 6
+
+### Перевірте роботу механізму вибіркового керування, виконавши операції INSERT, UPDATE, DELETE до віртуальної таблиці.
+
+INSERT
+
+![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/1c22bf77-c200-4d32-96d9-6befefc379b8)
+
+UPDATE
+
+![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/10e8e24b-f60a-4949-9c26-7b9d870f3e98)
+
+DELETE
+
+![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/1d494c9d-a567-4386-bf1f-1c3e55f6e6b1)
+
