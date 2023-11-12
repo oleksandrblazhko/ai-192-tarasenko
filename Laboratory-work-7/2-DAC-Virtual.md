@@ -39,3 +39,17 @@
 
 ![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/efe38200-c1a1-42ca-9429-0c7ef2f01f93)
 
+Тому були створені наступні правила
+
+INSERT
+
+![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/68b7ecd8-28b3-463b-9f0c-82b4d0c22e86)
+
+UPDATE
+
+![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/2c92c2e6-c7df-4719-9d30-95bc6bbde88a)
+
+DELETE
+
+![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/9354ac46-6eb9-42cf-8fd7-f3223dbd6a12)
+
