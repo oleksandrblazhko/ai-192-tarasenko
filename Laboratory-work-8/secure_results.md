@@ -8,6 +8,8 @@
 
 ![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/b38fa24b-f2eb-4549-8d7e-ae7b6d6454b5)
 
+SQL-ін'єкції не пройшли.
+
 ## change_data_secure
 
 ### 1) Стандартний запит
@@ -17,3 +19,5 @@
 ### 2) SQL-ін'єкція
 
 ![image](https://github.com/oleksandrblazhko/ai-192-tarasenko/assets/81381951/4bdafd74-fb17-4eec-babc-f1f299a94e9c)
+
+SQL-ін'єкція не пройшла.
