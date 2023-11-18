@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION change_data(attr_1 varchar, attr_2 varchar)
+CREATE OR REPLACE FUNCTION change_data_secure(attr_1 varchar, attr_2 varchar)
 RETURNS VARCHAR AS $$
 DECLARE 
 	str VARCHAR;
