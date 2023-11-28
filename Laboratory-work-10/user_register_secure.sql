@@ -23,6 +23,8 @@ $$ LANGUAGE plpgsql;
 
 CREATE OR REPLACE FUNCTION password_is_correct(password VARCHAR)
 RETURNS BOOLEAN AS $$
+DECLARE
+    ch CHAR;
 BEGIN
 
     IF LENGTH(password) < 11 THEN
@@ -30,9 +32,13 @@ BEGIN
     END IF;
 
 
-    IF NOT bool_or(ch >= '0' AND ch <= '9' FOR ch IN password) THEN
-        RETURN FALSE;
-    END IF;
+    FOR ch IN SELECT * FROM UNNEST(string_to_array(password, NULL))
+    LOOP
+        IF ch >= '0' AND ch <= '9' THEN
+            RETURN TRUE;
+        END IF;
+    END LOOP;
+    RETURN FALSE;
 
 
     IF LENGTH(REGEXP_REPLACE(password, '[^a-z]', '', 'g')) < 2 THEN
@@ -52,3 +58,4 @@ BEGIN
     RETURN TRUE;
 END;
 $$ LANGUAGE plpgsql;
+
